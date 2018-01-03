@@ -1,7 +1,8 @@
 ## Part Decisions
 
 ### Microcontroller
-MSP vs. Teensy
+MSP vs. Teensy (Clock speed, interrupt handling)
+Ease of flashing/debugging
 
 ### Sensor
 Hall effect vs. magnetoresistive
