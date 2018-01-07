@@ -12,7 +12,7 @@ Clock speed is probably the most critical factor, as that determines the resolut
 | Debugging | TI IDE | TI IDE | Serial console | TI IDE | Serial console |
 
 ### Sensor
-Hall effect vs. magnetoresistive. A good summary of the two was found [here](https://www.digikey.com/en/articles/techzone/2013/nov/proximity-sensing-options-part-2-magnetic-sensors) and [here](https://www.sensorsmag.com/components/a-case-study-mr-vs-hall-effect-for-position-sensing), and can be boiled down for this appolication to magnetoresistive sensors are more sensitive, and can be used in applications where the magnet is farther from the sensor, which is desirous here as getting withing mm of the bullet path provides obvious risks to the components.
+Hall effect vs. magnetoresistive. A good summary of the two was found [here](https://www.digikey.com/en/articles/techzone/2013/nov/proximity-sensing-options-part-2-magnetic-sensors) and [here](https://www.sensorsmag.com/components/a-case-study-mr-vs-hall-effect-for-position-sensing), and can be boiled down for this appolication to magnetoresistive sensors are more sensitive, and can be used in applications where the magnet is farther from the sensor, which is desirous here as getting withing mm of the bullet path provides obvious risks to the components. Reed switches are mechanical, and the response time would be limiting in this application compared to a solid state device like hall effect or magnetoresistive.
 
 Both of these sensors come in digital and analog variants. The analog ones produce one or more voltages directly relating to the strength and angle of the magnetic field present. Digital sensors give a single high/low TTL signal according to the strength of the magnetic field relative to some internal threshold.
 
