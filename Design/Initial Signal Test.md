@@ -1,6 +1,6 @@
 As I have never worked with either hall effect sensors or magnetoresistive sensors before, and I don't know exactly how sensitive either one would be in these conditions or what kind of signal conditioning I will need, I need to set up an experiment. I am also, however, limited in my test equipment available, only a handheld DMM and whatever debugging tools are available to me on the microcontroller. Because of this, the arduino is a stronger contender than the MSP boards, as they can run a UART console over USB while running.
 
-Teensy 3.6
+Teensy 3.6 https://www.nxp.com/docs/en/data-sheet/K66P144M180SF5V2.pdf
 
 https://www.digikey.com/product-detail/en/diodes-incorporated/AH3368Q-P-B/AH3368Q-P-BDI-ND/6575191
 
